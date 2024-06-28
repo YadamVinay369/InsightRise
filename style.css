@@ -38,7 +38,7 @@ ul{
 }
 
 .container{
-    max-width: 1180px;
+    max-width: 1450px;
     margin-inline: auto;
     overflow: hidden;
 }
@@ -121,7 +121,7 @@ main{
 }
 
 .card{
-    width: 360px;
+    width: 450px;
     min-height: 400px;
     box-shadow: 0 0 4px #d4ecff;
     border-radius: 4px;
