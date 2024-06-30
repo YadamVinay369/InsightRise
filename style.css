@@ -9,13 +9,12 @@
 :root{
     --primary-text-color: #183b56;
     --secondary-text-color: #577592;
-    --accent-color: #2294ed;
-    --accent-color-dark: #1d69a3;
 }
 
 body{
     font-family: "Poppins",sans-serif;
     color: var(--primary-text-color);
+    background-color: #F1E5D1;
 }
 
 p{
@@ -44,8 +43,8 @@ ul{
 }
 
 nav {
-    background-color: #f3faff;
-    box-shadow: 0 0 4px #bbd0e2;
+    /* background-color: #f3faff; */
+    background-color: #C39898;
     position: fixed;
     top: 0;
     z-index: 100;
@@ -72,11 +71,15 @@ nav {
 }
 
 .hover-link:hover{
-    color: var(--secondary-text-color);
+    color: #987070;
 }
 
 .hover-link:active{
     color: red;
+}
+
+.nav-item.active{
+    color: rgb(196, 42, 67);
 }
 
 .search-bar{
@@ -88,13 +91,19 @@ nav {
     width: 200px;
     height: 100%;
     padding: 19px;
-    border: 2px solid #bbd0e2;
+    /* border: 3px solid rgb(196, 42, 67); */
+    border: 3px solid var(--primary-text-color);
     font-size: 20px;
     font-family: "Roboto",sans-serif;
+    outline: none;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: #F1E5D1;
 }
 
 .search-button{
-   background-color: var(--accent-color); 
+   /* background-color: rgb(196, 42, 67);  */
+   background-color: var(--primary-text-color);
    color: white;
    padding: 8px 24px;
    border: none;
@@ -102,11 +111,18 @@ nav {
    cursor: pointer;
    font-size: 20px;
    font-family: "Roboto",sans-serif;
+   transition: 0.8s;
 }
 
 .search-button:hover{
-    background-color: var(--accent-color-dark);
+    background-color: #F1E5D1;
+    color: var(--primary-text-color);
 }
+
+.search-button:active{
+    transform: scale(0.9);
+}
+
 
 main{
     padding-block: 20px;
@@ -126,14 +142,14 @@ main{
     box-shadow: 0 0 4px #d4ecff;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #f6f2eb;
     overflow: hidden;
     transition: all 0.3s ease;
 }
 
 .card:hover{
     box-shadow: 1px 1px 8px #d4ecff;
-    background-color: #f9fdff;
+    background-color: #fdfaf5;
     transform: translateY(-2px);
 }
 
