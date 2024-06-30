@@ -8,9 +8,16 @@ const reload = () =>{
 }
 
 const fetchNews = async (query)=>{
-    const res = await fetch(`${url}${query}&apiKey=${API_KEY}`)
-    const data = await res.json()
-    bindData(data.articles)
+    try {
+        const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
+        if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        const data = await res.json();
+        bindData(data.articles);
+    } catch (error) {
+        console.error("Error fetching news:", error);
+    }
 }
 
 const bindData = (articles) => {
