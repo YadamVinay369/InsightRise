@@ -9,7 +9,7 @@ const reload = () =>{
 
 const fetchNews = async (query)=>{
     try {
-        const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
+        const res = await fetch(`${url}${query}&from=2024-06-01&sortBy=publishedAt&apiKey=${API_KEY}`);
         if (!res.ok) {
             throw new Error(`HTTP error! status: ${res.status}`);
         }
