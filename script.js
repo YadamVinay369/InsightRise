@@ -1,6 +1,7 @@
 const API_KEY = "9058b8590b2f4c27bae26220171488b2"
 const url = "https://newsapi.org/v2/everything?q="
 
+
 window.addEventListener('load',()=> fetchNews("india"));
 
 const reload = () =>{
@@ -9,7 +10,8 @@ const reload = () =>{
 
 const fetchNews = async (query)=>{
     try {
-        const res = await fetch(`${url}${query}&from=2024-06-01&sortBy=publishedAt&apiKey=${API_KEY}`);
+        const res = await fetch(`${url}${query}&language=en&from=2024-06-20&sortBy=publishedAt&apiKey=${API_KEY}`);
+        // https://newsapi.org/v2/everything?q=Apple&from=2024-07-20&sortBy=popularity&apiKey=API_KEY
         if (!res.ok) {
             throw new Error(`HTTP error! status: ${res.status}`);
         }
