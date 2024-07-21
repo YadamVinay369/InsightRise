@@ -13,7 +13,7 @@ InsightRise aggregates the latest news articles and presents them in an easy-to-
 
 ## Demonstration
 
-https://github.com/user-attachments/assets/edd3879c-07dd-4da8-a482-ed6267ebb17e
+https://github.com/user-attachments/assets/e00375c9-8db0-4d9c-a999-dccc8dfd88da
 
 
 ## Installation
