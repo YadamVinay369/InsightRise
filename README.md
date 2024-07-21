@@ -7,9 +7,15 @@ InsightRise is a single-page news website that provides the latest news from var
 ## Project Description
 InsightRise aggregates the latest news articles and presents them in an easy-to-read format. Users can browse news by different categories such as Tech, Finance, Politics, and Fun. Additionally, users can search for news articles using keywords.
 ## Features
-1. Display latest news articles from multiple categories.
+1. Display the latest news articles from multiple categories.
 2. Search for news articles by keyword.
 3. Simple and intuitive user interface.
+
+## Demonstration
+
+https://github.com/user-attachments/assets/edd3879c-07dd-4da8-a482-ed6267ebb17e
+
+
 ## Installation
 
 1. Clone the repository:
