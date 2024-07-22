@@ -13,7 +13,8 @@ InsightRise aggregates the latest news articles and presents them in an easy-to-
 
 ## Demonstration
 
-https://github.com/user-attachments/assets/e00375c9-8db0-4d9c-a999-dccc8dfd88da
+Google-drive link for the website demonstration is provided in the description.
+Please do watch it for better understanding.
 
 
 ## Installation
