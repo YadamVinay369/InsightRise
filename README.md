@@ -13,8 +13,8 @@ InsightRise aggregates the latest news articles and presents them in an easy-to-
 
 ## Demonstration
 
-Google-drive link for the website demonstration is provided in the description.
-Please do watch it for better understanding.
+Google-drive link for the website demonstration is provided in the About section.
+Please watch it for a better understanding.
 
 
 ## Installation
